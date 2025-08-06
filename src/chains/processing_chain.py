@@ -89,3 +89,8 @@ def create_processing_chain(llm: ChatOpenAI, all_docs: list[dict]):
     )
     
     return full_chain
+
+
+if __name__ == "__main__":
+    prmts = load_prompts_from_config()
+    print(prmts)
