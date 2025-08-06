@@ -1,0 +1,13 @@
+langchain-processor/
+├── .env                  # Для хранения секретов (API-ключ OpenAI)
+├── config/
+│   └── prompts.yaml      # Конфигурация цепочек и шаблоны промтов
+├── src/
+│   ├── chains/
+│   │   └── processing_chain.py # Логика создания и сборки основной цепочки LangChain
+│   ├── parsers/
+│   │   └── output_parsers.py   # Пользовательские парсеры для вывода LLM
+│   ├── services/
+│   │   └── external_api.py     # Модуль для работы с внешним API (включая мок-версию)
+│   └── main.py             # Главный скрипт для запуска сервиса и демонстрации работы
+└── requirements.txt        # Список зависимостей проекта

@@ -1,0 +1,8 @@
+# Requirements for the project
+openai
+requests
+langchain
+langchain-openai
+python-dotenv
+pyyaml
+requests # Если будет реальный API-клиент
